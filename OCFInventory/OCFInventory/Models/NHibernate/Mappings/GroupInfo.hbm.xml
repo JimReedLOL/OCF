@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+ <hibernate-mapping 
+ xmlns="urn:nhibernate-mapping-2.2" 
+ assembly="OCFInventory" 
+ namespace="OCFInventory" 
+ auto-import="true"> 
+ <class name="OCFInventory.Models.GroupInfo,OCFInventory"> 
+   <id name="Id" access="property" column="id" type="Int32"> 
+    <generator class="native"></generator> 
+   </id> 
+   <property name="Name" access="property" 
+    column="name" type="String"></property> 
+   <property name="Description" access="property" 
+    column="description" type="String"></property>
+   <property name="LastUpdated" access="property"
+       column="last_updated" type="DateTime"></property>
+   <property name="LastUpdatedBy" access="property"
+       column="last_updated_by" type="Int32"></property>
+   <property name="Domain" access="property"
+       column="domain_id" type="Int32"></property>
+   <property name="Parent" access="property"
+       column="parent_id" type="Int32"></property>
+   <property name="Root" access="property"
+       column="root_id" type="Int32"></property>
+ </class> 
+ </hibernate-mapping> 

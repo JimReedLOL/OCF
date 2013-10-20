@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping
+xmlns="urn:nhibernate-mapping-2.2"
+assembly="OCFInventory"
+namespace="OCFInventory"
+auto-import="true">
+  <class name="OCFInventory.Models.Domain,OCFInventory">
+    <id name="id" access="property" column="Domain_id" type="Int32">
+      <generator class="native"></generator>
+    </id>
+    <property name="Name" access="property"
+     column="name" type="String"></property>
+    <property name="Description" access="property"
+     column="description" type="String"></property>
+  </class>
+</hibernate-mapping>

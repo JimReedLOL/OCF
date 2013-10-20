@@ -1,0 +1,87 @@
+﻿@model OCFInventory.Models.GroupInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+
+    <fieldset>
+        <legend>Person</legend> 
+
+        <div  class="editor-label">
+            @Html.LabelFor(model => model.Id)
+        </div>
+        <div > Hello
+            @Html.DisplayFor(model => model.Id)
+        </div>
+
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.Name) 
+        </div>
+
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Description)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.Description) 
+        </div>
+
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastUpdated)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.LastUpdated) 
+        </div>
+
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastUpdatedBy)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.LastUpdatedBy) 
+        </div>
+
+         <div class="editor-label">
+            @Html.LabelFor(model => model.Domain)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.Domain) 
+        </div>
+
+         <div class="editor-label">
+            @Html.LabelFor(model => model.Parent)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.Parent) 
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Root)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.Root) 
+        </div> 
+ 
+    </fieldset>
+}
+
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

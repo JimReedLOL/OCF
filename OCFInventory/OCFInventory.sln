@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCFInventory", "OCFInventory\OCFInventory.csproj", "{416BE611-188F-4B5D-AD9F-82C165C82962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCFInventory.Tests", "OCFInventory.Tests\OCFInventory.Tests.csproj", "{39F0C0E1-926B-473A-B7EE-705F80501669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{416BE611-188F-4B5D-AD9F-82C165C82962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416BE611-188F-4B5D-AD9F-82C165C82962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416BE611-188F-4B5D-AD9F-82C165C82962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416BE611-188F-4B5D-AD9F-82C165C82962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F0C0E1-926B-473A-B7EE-705F80501669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F0C0E1-926B-473A-B7EE-705F80501669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F0C0E1-926B-473A-B7EE-705F80501669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F0C0E1-926B-473A-B7EE-705F80501669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
